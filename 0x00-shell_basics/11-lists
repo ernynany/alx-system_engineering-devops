@@ -1,0 +1,8 @@
+#!/bin/bash
+parent_dir="$(dirname "$(pwd)")"
+ls -al
+
+cd "$parent_dir" && ls -al
+
+ls -al /boot
+
